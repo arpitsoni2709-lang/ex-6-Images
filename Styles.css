@@ -1,0 +1,28 @@
+body, h1, h2, h3{
+    margin: 2px;
+}
+.site-header {
+    margin: 100px;
+    width: auto;
+}
+
+.main {
+    background-color: beige;
+    width: 600px;
+    margin: auto;
+}
+.main {
+    background-color: beige;
+    width: 600px;
+    margin: auto;
+}
+
+.site-footer {
+    background-color: black;
+}
+.hero-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+
+}
