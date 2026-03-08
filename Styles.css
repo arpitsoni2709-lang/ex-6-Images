@@ -1,28 +1,35 @@
-body, h1, h2, h3{
-    margin: 2px;
+
+body {
+    margin: 0px;
+
 }
+
 .site-header {
-    margin: 100px;
-    width: auto;
-}
-
-.main {
-    background-color: beige;
-    width: 600px;
-    margin: auto;
-}
-.main {
-    background-color: beige;
-    width: 600px;
-    margin: auto;
-}
-
-.site-footer {
-    background-color: black;
-}
-.hero-image {
+    max-width: 600px;
+    margin:auto;
     width: 100%;
-    max-width: 300px;
-    height: auto;
+}
 
+h1, h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+ max-width: 600px;
+    margin:auto;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.hero-image {
+    border-bottom: 8px solid #ffe043;
+    display: block;
+    width: 100%;
+}
+
+.image-caption {
+    background-color: rgb(222, 219, 219);
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
 }
